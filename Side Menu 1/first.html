@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset = "UTF-8">
+ <title>Dashboard</title>
+ <link rel = "stylesheet" type = "text/css" href = "style_first.css" />
+</head>
+<body>
+
+<div id="sidebar">
+    <center>
+        <img src="images/av.png" alt="Avatar" class="avatar">
+    </center>
+    <div class="toggle-btn" onclick="toggleSidebar()">
+    <span></span>
+    <span></span>
+    <span></span>
+    </div>
+    <br>
+    <br>
+    <br>
+    <ul>
+        <li>Select Applicant</li>
+        <li>Assign to Worker</li>
+        <li>Worker Details</li>
+    </ul>
+
+</div>
+<script>
+function toggleSidebar() {
+ document.getElementById("sidebar").classList.toggle('active');
+}
+</script>
+</body>
+</html>
